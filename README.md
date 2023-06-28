@@ -1,10 +1,10 @@
 # Mini Messageboard
 
-+ DEMO [HERE](http://node-js-alb-1026336602.us-west-1.elb.amazonaws.com/)!
 
 + Learned about routing and GET / POST requests on a Nodejs server
 + MongoDB backend hosted in the cloud for persistence, and connected with the `SERVER_URL` env variable
-+ Dockerized the node application and run on AWS Fargate:
++ Experimented with MVC architecture and design
++ Dockerized the node application and run on AWS Fargate behind an Application Load Balancer:
 
 ```sh
 docker build . -t sp00kysp00k/messageboard
