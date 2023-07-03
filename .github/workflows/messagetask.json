@@ -5,7 +5,6 @@
             "cpu": 0,
             "portMappings": [
                 {
-                    "name": "nodejs-app-3000-tcp",
                     "containerPort": 3000,
                     "hostPort": 3000,
                     "protocol": "tcp",
@@ -28,10 +27,9 @@
             }
         }
     ],
-    "family": "messagesTask",
     "executionRoleArn": "arn:aws:iam::300325804406:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 3,
+    "revision": 1,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
