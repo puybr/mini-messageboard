@@ -21,7 +21,7 @@
                 "options": {
                     "awslogs-create-group": "true",
                     "awslogs-group": "awslogs-nodejs",
-                    "awslogs-region": "us-west-2",
+                    "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "awslogs-nodejs"
                 }
             },
