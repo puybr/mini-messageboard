@@ -32,6 +32,6 @@
     "networkMode": "awsvpc",
     "memory": "2 GB",
     "cpu": "1 vCPU",
-    "executionRoleArn": "arn:aws:iam::732737896721:role/mini-messageboard-role"
+    "executionRoleArn": "arn:aws:iam::732737896721:role/development"
 
 }
