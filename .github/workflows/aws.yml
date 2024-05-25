@@ -12,7 +12,7 @@ env:
   ECS_CLUSTER: MyCluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: arn:aws:ecs:us-east-1:732737896721:task-definition/my-task:1 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: mini-meassageboard           # set this to the name of the container in the
+  CONTAINER_NAME: mini-meassageboard          # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 jobs:
