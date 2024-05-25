@@ -5,8 +5,17 @@
     "family": "nodejs",
     "containerDefinitions": [
         {
-            "name": "mini-meassageboard",
-            "image": "732737896721.dkr.ecr.us-east-1.amazonaws.com/mini-meassageboard",
+            "name": "mini-messageboard",
+            "image": "732737896721.dkr.ecr.us-east-1.amazonaws.com/mini-messageboard",
+            "portMappings": [
+                {
+                    "name": "mini-meassageboard-3000-tcp",
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
             "essential": true
         }
     ],
