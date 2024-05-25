@@ -16,6 +16,15 @@
                     "appProtocol": "http"
                 }
             ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-create-group": "true",
+                    "awslogs-group": "awslogs-nodejs",
+                    "awslogs-region": "us-west-2",
+                    "awslogs-stream-prefix": "awslogs-nodejs"
+                }
+            },
             "essential": true
         }
     ],
