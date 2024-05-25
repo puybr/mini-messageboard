@@ -6,7 +6,7 @@
     "containerDefinitions": [
         {
             "name": "mini-messageboard",
-            "image": "732737896721.dkr.ecr.us-east-1.amazonaws.com/mini-messageboard",
+            "image": "public.ecr.aws/x4s6i0h4/mini-messageboard",
             "portMappings": [
                 {
                     "name": "mini-meassageboard-3000-tcp",
