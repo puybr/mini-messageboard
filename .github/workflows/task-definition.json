@@ -27,6 +27,7 @@
                 },
                 "secretOptions": []
             },
+            "systemControls": []
         }
     ],
     "volumes": [],
