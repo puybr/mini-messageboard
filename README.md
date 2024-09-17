@@ -12,4 +12,4 @@ docker push sp00kysp00k/messageboard:latest
 ```
 
 ## 🚀 Continuous Deployment (CD)
-- [x] Deploy to Amazon Elastic Container Service with Github Actions
+- [ ] Deploy to Amazon Elastic Container Service with CodePipeline
