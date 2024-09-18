@@ -10,6 +10,3 @@ docker build . -t sp00kysp00k/messageboard
 docker run -d -p 3000:3000  --env-file .env sp00kysp00k/messageboard
 docker push sp00kysp00k/messageboard:latest
 ```
-
-## 🚀 Continuous Integration Continuous Deployment (CICD)
-- [ ] Deploy to Amazon Elastic Container Service with CodePipeline
