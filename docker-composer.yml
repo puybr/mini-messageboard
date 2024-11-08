@@ -2,11 +2,11 @@ version: "3"
 services:
   client-side-app:
     image: my-client-side-docker-image
-    environment:
-      - SERVER_URL=process.env.SERVER_URL
     ports:
       - "8080:8080"
   server-side-app:
     image: my-server-side-docker-image
+    environment:
+      - SERVER_URL=process.env.SERVER_URL
     ports:
       - "3000:3000"
