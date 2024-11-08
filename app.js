@@ -27,16 +27,13 @@ async function main(){
 }
 main().catch(console.error);
 
-app.set('view engine', 'ejs')
+
+app.set('view engine', 'ejs');
 
 
 app.listen(port, () => {
   console.log(`App listening at port ${port}`)
 })
-
-
-
-
 
 
 async function getCollection(client) {
@@ -74,14 +71,11 @@ async function getCollection(client) {
           };
         if (doc.text&&doc.user) {
             client.connect();
-            client.db("messageboard").collection("messages").insertOne(doc);
+  
+          client.db("messageboard").collection("messages").insertOne(doc);
             messages.push(doc);
             res.redirect('..')
-            } else return;
-        
-        
+            } else return;      
     })
     }
 }
-
-
