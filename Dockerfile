@@ -1,5 +1,5 @@
 FROM node:latest AS build-stage
-WORKDIR /app
+WORKDIR /
 COPY package*.json ./
 RUN npm install
 COPY . .
